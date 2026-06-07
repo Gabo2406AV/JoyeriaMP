@@ -1,14 +1,14 @@
 package joyeriamp;
 
-import java.sql.Connection; // Importa la clase Connection [cite: 2, 3]
+import java.sql.Connection; 
 import java.sql.DriverManager;
-import javax.swing.JOptionPane; // Importa JOptionPane para alertas [cite: 6, 9]
+import javax.swing.JOptionPane; 
 
 
 public class conexion {
     Connection cn;
 
-    public Connection conectar() { // Este es el método que llama tu PDF [cite: 52, 53]
+    public Connection conectar() {
         try {
             // Registro del driver de MySQL
             Class.forName("com.mysql.cj.jdbc.Driver");
